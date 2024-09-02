@@ -15,11 +15,11 @@ let count = 5
 
 btn.addEventListener("click", function () {
     if (!input1.value) {
-        error.innerHTML = "Enter something";
+        error.innerHTML = "Please Enter Something";
     } else if (isNaN(input1.value)) {
-        error.innerHTML ="Enter a number";
+        error.innerHTML ="Please Enter a Number";
     } else if (!(input1.value>=0 && input1.value<100)) {
-        error.innerHTML ="Enter a number 0 to 99";
+        error.innerHTML ="Please Enter a Numebr 1 To 99";
     } else {
         div2.style.display = "block"
         div1.style.display = "none"
@@ -32,11 +32,11 @@ btn.addEventListener("click", function () {
 
 btn2.addEventListener("click", function () {
     if (!input2.value) {
-        error2.innerHTML ="Enter something";
+        error2.innerHTML ="Please Enter Something";
     } else if (isNaN(input2.value)) {
-        error2.innerHTML ="Enter a number";
+        error2.innerHTML ="Please Enter a Number";
     } else if (!(input2.value>=0 && input2.value<100)) {
-        error2.innerHTML ="Enter a number 0 to 99";
+        error2.innerHTML ="Please Enter a Numebr 1 To 99";
     } else {
         if (count > 1) {
             count--
