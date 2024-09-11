@@ -30,7 +30,7 @@
 }
 
 .give, .give2{
-    color:white;
+    color:#FFE699;
     text-align: center;
     padding-bottom: 20px;
     font-size: 40px;
@@ -52,13 +52,31 @@
     margin: 10px auto 30px auto;
     border-radius: 15px;
 }
+
+.btn-div{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
 .btn, .btn2{
     color:white;
     text-align: center;
     display: flex;
-    margin: auto;
     padding: 10px 60px;
-    background: #7373FF;
+    background: #FFC000;
+    border: 0;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.reset, .reset2{
+    color:white;
+    text-align: center;
+    display: flex;
+    padding: 10px 60px;
+    background: #FC575E;
     border: 0;
     border-radius: 20px;
     color: white;
